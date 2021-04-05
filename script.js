@@ -52,7 +52,6 @@ const arrayMethods = {
 
   mergeArrays: (array) => {
     const mergedArray = [].concat.apply([], array);
-    // const mergedArray = [array.flat(Infinity)]
     console.log(mergedArray);
   },
 
